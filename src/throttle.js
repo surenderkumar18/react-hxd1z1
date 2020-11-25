@@ -25,7 +25,7 @@ class Throttle extends React.Component {
   render() {
     return (
       <div>
-        <button onClick={this.start}>{this.state.count}</button>
+        <button onClick={this.start}>Click to start {this.state.count}</button>
         <button onClick={this.stop}>Stop</button>
       </div>
     );
